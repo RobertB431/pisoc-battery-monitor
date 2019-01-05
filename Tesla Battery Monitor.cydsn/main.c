@@ -4,10 +4,15 @@
  * WIP, not functional
  * Use at own risk
  *
+ * Functional monitoring: VBATT, Shunt amps, thermistor temperatures
+ * Does not currently protect
+ *
+ *
  * ========================================
 */
 #include "project.h"
 #include "stdio.h"
+#include "math.h"
 //#include <stdlib.h>
 
 #define BUFFER_LEN  128
@@ -17,8 +22,10 @@
 #define TS_MAXX 3800
 #define TS_MAXY 4000
 
-// the value of the 'other' resistor for thermistor
-#define SERIESRESISTOR 10000 
+// the value of the 'other' resistor for the thermistors
+#define SERIESRESISTOR 10000    
+
+#define VBATT_DIVIDER 0.01038 //voltage divider measured value for vbat readings. VBATT = mV*VDIVIDER/10. Resistors ~350k and ~50k
 
 int TS1_counts = 0;
 int TS2_counts = 0;
@@ -26,11 +33,11 @@ float TS1_volts = 0;
 float TS2_volts = 0;
 float TS1_res = 0;
 float TS2_res = 0;
-int TS1_temp = 0;
-int TS2_temp = 0;
+float TS1_temp = 0; // degrees F
+float TS2_temp = 0;
 
-int v_bat = 0;
-float v_amps = 0.0;
+int v_bat = 0;//mVolts
+float v_amps = 0.0;//Amps
 
 uint8 fault_status = 0;
 //bool fault = false;
@@ -57,7 +64,7 @@ void faultStatus()
     ov_fault = PowerMonitor_GetOVFaultStatus();
     uv_fault = PowerMonitor_GetUVFaultStatus();
     oc_fault = PowerMonitor_GetOCFaultStatus();
-    if(v_amps < 50 || v_amps > 50)
+    if(v_amps < -50.0 || v_amps > 50.0)
     {
         oc_fault = 1;   
     }
@@ -84,27 +91,27 @@ void faultStatus()
     }
     if(uv_fault)
     {
-        TFTSHIELD_1_FillRect(180, 160, 20,20, RED);
+        TFTSHIELD_1_FillRect(185, 160, 20,20, RED);
     }
     else
     {
-        TFTSHIELD_1_FillRect(180, 160, 20,20, GREEN);
+        TFTSHIELD_1_FillRect(185, 160, 20,20, GREEN);
     }
-    if(oc_fault || v_amps < 50 || v_amps > 50)
+    if(oc_fault)
     {
-        TFTSHIELD_1_FillRect(140, 160, 20,20, RED);
+        TFTSHIELD_1_FillRect(145, 160, 20,20, RED);
     }
     else
     {
-        TFTSHIELD_1_FillRect(140, 160, 20,20, GREEN);
+        TFTSHIELD_1_FillRect(145, 160, 20,20, GREEN);
     }
     if(temp_fault)
     {
-        TFTSHIELD_1_FillRect(100, 160, 20,20, RED);
+        TFTSHIELD_1_FillRect(105, 160, 20,20, RED);
     }
     else
     {
-       TFTSHIELD_1_FillRect(100, 160, 20,20, GREEN);   
+       TFTSHIELD_1_FillRect(105, 160, 20,20, GREEN);   
     }
 }
 
@@ -131,7 +138,7 @@ int main(void)
     {
        
     }
-    touch_en = 1;
+    //touch_en = 1;
     Clock_1_SetDividerValue(1);
     CyDelay(10);
     TFTSHIELD_1_Start();
@@ -182,11 +189,20 @@ int main(void)
         TS1_volts = Thermistor_ADC_CountsTo_Volts(TS1_counts);//get volts
         TS2_volts = Thermistor_ADC_CountsTo_Volts(TS2_counts);
         
-        TS1_res = (4095 / TS1_counts)  - 1;     // (4095/ADC - 1) get resistance
+        TS1_res = (2800 / (float)TS1_counts)  - 1.0;     // (4095/ADC - 1) get resistance. 3.3V Ref = ~2800 max counts
         TS1_res = SERIESRESISTOR / TS1_res;  // 10K / (4095/ADC - 1)
         
-        TS2_res = (4095 / TS2_counts)  - 1;     // (4095/ADC - 1) get resistance
+        TS2_res = (2800 / (float)TS2_counts)  - 1.0;     // (4095/ADC - 1) get resistance
         TS2_res = SERIESRESISTOR / TS2_res;  // 10K / (4095/ADC - 1)
+        
+        //get temperature, C/100
+        TS1_temp = Thermistor_1_GetTemperature((int)TS1_res);
+        TS2_temp = Thermistor_1_GetTemperature((int)TS2_res);
+        
+        TS1_temp = TS1_temp/100; // convert to degrees C
+        TS1_temp = (TS1_temp*9/5) + 32; // convert to degrees F
+        TS2_temp = TS2_temp/100;
+        TS2_temp = (TS2_temp*9/5) + 32;
         
         //power monitor. Measure battery voltage and charge/discharge amps
         v_bat = PowerMonitor_GetConverterVoltage(1);
@@ -196,16 +212,21 @@ int main(void)
         //count_str = sprintf(buffer, "float:  %.2f", TS1_volts);
         
         //print values to lcd screen
-        count_str = sprintf(buffer, "TS1 Res: %.2f   TS2 Res: %.2f \n",TS1_res,TS2_res); //print thermistor voltages
+        //temperature
         TFTSHIELD_1_SetCursor(0,40);
-        TFTSHIELD_1_FillRect(0, 35, 200,40, BLACK);
+        TFTSHIELD_1_FillRect(0, 35, 120,40, BLACK); //Clear section of screen to print to
+        count_str = sprintf(buffer, "TS1 Temp: %.1f",TS1_temp); //print thermistor voltages
         TFTSHIELD_1_PrintString(buffer);
+        TFTSHIELD_1_Write('\n');
+        count_str = sprintf(buffer, "TS2 Temp: %.1f",TS2_temp); //print thermistor voltages
+        TFTSHIELD_1_PrintString(buffer);
+        
         
         //while(USBUART_2_CDCIsReady() == 0u);
         //USBUART_2_PutData(buffer, count_str);
         CyDelay(10);
         
-        count_str = sprintf(buffer, "Batt Volts: %.1f   Batt Amps: %.1f \n",(float)v_bat*0.0096,v_amps); //print battery voltage and current
+        count_str = sprintf(buffer, "Batt Volts: %.1f   Batt Amps: %.1f \n",(float)v_bat*VBATT_DIVIDER,v_amps); //print battery voltage and current
         TFTSHIELD_1_SetCursor(0,80);
         TFTSHIELD_1_FillRect(0, 75, 110,40, BLACK);
         TFTSHIELD_1_PrintString(buffer);

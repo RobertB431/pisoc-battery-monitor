@@ -13,7 +13,7 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="GnarV.Bundle01\Tesla Battery Monitor\Generated_Source">
 <ExpandedNodeIds>
 <v>GnarV.Bundle01</v>
 <v>GnarV.Bundle01\Tesla Battery Monitor</v>
@@ -32,7 +32,6 @@
 <v>GnarV.Bundle01\Tesla Battery Monitor\Header Files\cyapicallbacks.h</v>
 <v>GnarV.Bundle01\Tesla Battery Monitor\Source Files</v>
 <v>GnarV.Bundle01\Tesla Battery Monitor\Source Files\main.c</v>
-<v>GnarV.Bundle01\Tesla Battery Monitor\Generated_Source</v>
 <v>GnarV.Bundle01\Tesla Battery Monitor\Generated_Source\PSoC5</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
@@ -54,26 +53,6 @@
 <v>GnarV.Bundle01\Tesla Battery Monitor\Source Files</v>
 <v>GnarV.Bundle01\Tesla Battery Monitor\Source Files\main.c</v>
 <v>GnarV.Bundle01\Tesla Battery Monitor\Generated_Source</v>
-<v>GnarV.Bundle01\Tesla Battery Monitor\Generated_Source\PSoC5</v>
-<v>GnarV.Bundle01\Tesla Battery Monitor\Generated_Source\PSoC5\charge_fet</v>
-<v>GnarV.Bundle01\Tesla Battery Monitor\Generated_Source\PSoC5\Clock_1</v>
-<v>GnarV.Bundle01\Tesla Battery Monitor\Generated_Source\PSoC5\cs</v>
-<v>GnarV.Bundle01\Tesla Battery Monitor\Generated_Source\PSoC5\cy_boot</v>
-<v>GnarV.Bundle01\Tesla Battery Monitor\Generated_Source\PSoC5\dc</v>
-<v>GnarV.Bundle01\Tesla Battery Monitor\Generated_Source\PSoC5\Em_EEPROM_Dynamic</v>
-<v>GnarV.Bundle01\Tesla Battery Monitor\Generated_Source\PSoC5\fault</v>
-<v>GnarV.Bundle01\Tesla Battery Monitor\Generated_Source\PSoC5\load_fet</v>
-<v>GnarV.Bundle01\Tesla Battery Monitor\Generated_Source\PSoC5\miso</v>
-<v>GnarV.Bundle01\Tesla Battery Monitor\Generated_Source\PSoC5\mosi</v>
-<v>GnarV.Bundle01\Tesla Battery Monitor\Generated_Source\PSoC5\pgood</v>
-<v>GnarV.Bundle01\Tesla Battery Monitor\Generated_Source\PSoC5\pmon_clock</v>
-<v>GnarV.Bundle01\Tesla Battery Monitor\Generated_Source\PSoC5\PowerMonitor</v>
-<v>GnarV.Bundle01\Tesla Battery Monitor\Generated_Source\PSoC5\PowerMonitor_ADC</v>
-<v>GnarV.Bundle01\Tesla Battery Monitor\Generated_Source\PSoC5\PowerMonitor_ADC_Ext_CP_Clk</v>
-<v>GnarV.Bundle01\Tesla Battery Monitor\Generated_Source\PSoC5\PowerMonitor_ADC_theACLK</v>
-<v>GnarV.Bundle01\Tesla Battery Monitor\Generated_Source\PSoC5\PowerMonitor_PGA</v>
-<v>GnarV.Bundle01\Tesla Battery Monitor\Generated_Source\PSoC5\PowerMonitor_PM_AMux_Current</v>
-<v>GnarV.Bundle01\Tesla Battery Monitor\Generated_Source\PSoC5\PowerMonitor_PM_AMux_Voltage</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
@@ -243,8 +222,6 @@
 <Unloaded />
 <OpenDocs>
 <name v=".\Tesla Battery Monitor.cydsn\TopDesign\TopDesign.cysch" />
-<name v=".\Tesla Battery Monitor.cydsn\Tesla Battery Monitor.cydwr" />
-<name v=".\Tesla Battery Monitor.cydsn\main.c" />
 </OpenDocs>
 <OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
 
@@ -252,7 +229,7 @@
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1159, 550" SelectedTabbedMdiWindow="001c4053-151d-4a68-b0ef-164fea74cd13"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="498681e0-64f9-41d4-8916-8681ced3c037" /><DocumentWindow Key="C:\Users\LilRobby\Desktop\GnarV.Bundle01 - 1\Tesla Battery Monitor.cydsn\TopDesign\TopDesign.cysch" Guid="28da027b-460d-4632-ac8f-af3bb46df123" /><DocumentWindow Key="C:\Users\LilRobby\Desktop\GnarV.Bundle01 - 1\Tesla Battery Monitor.cydsn\Tesla Battery Monitor.cydwr" Guid="001c4053-151d-4a68-b0ef-164fea74cd13" /><DocumentWindow Key="C:\Users\LilRobby\Desktop\GnarV.Bundle01 - 1\Tesla Battery Monitor.cydsn\main.c" Guid="988bf33a-8d48-4ae3-820d-f51fb23c02be" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="892, 550" SelectedTabbedMdiWindow="4091c35e-ce70-47bf-8d5c-b77975a84873"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="498681e0-64f9-41d4-8916-8681ced3c037" /><DocumentWindow Key="C:\Users\LilRobby\Workspace\pisoc-battery-monitor\Tesla Battery Monitor.cydsn\TopDesign\TopDesign.cysch" Guid="4091c35e-ce70-47bf-8d5c-b77975a84873" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>

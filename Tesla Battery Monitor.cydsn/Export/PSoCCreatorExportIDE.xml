@@ -7,7 +7,7 @@
       <Tool Name="prebuild" Command="" Options="" />
       <Tool Name="assembler" Command="arm-none-eabi-as.exe" Options="-mcpu=cortex-m3 -mthumb -I. -IGenerated_Source\PSoC5 -alh=${OutputDir}/${CompileFile}.lst -g -W" />
       <Tool Name="compiler" Command="arm-none-eabi-gcc.exe" Options="-mcpu=cortex-m3 -mthumb -I. -IGenerated_Source\PSoC5 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og" />
-      <Tool Name="linker" Command="arm-none-eabi-gcc.exe" Options="-mcpu=cortex-m3 -mthumb -L Generated_Source\PSoC5 -Wl,-Map,${OutputDir}/${ProjectShortName}.map -T Generated_Source\PSoC5\cm3gcc.ld -specs=nano.specs -u _printf_float -Wl,--gc-sections -g -ffunction-sections -Og -ffat-lto-objects" />
+      <Tool Name="linker" Command="arm-none-eabi-gcc.exe" Options="-mcpu=cortex-m3 -mthumb -l m -L Generated_Source\PSoC5 -Wl,-Map,${OutputDir}/${ProjectShortName}.map -T Generated_Source\PSoC5\cm3gcc.ld -specs=nano.specs -u _printf_float -Wl,--gc-sections -g -ffunction-sections -Og -ffat-lto-objects" />
       <Tool Name="postbuild" Command="" Options="" />
     </Toolchain>
     <Toolchain Name="ARM MDK Generic" Selected="False">
@@ -25,7 +25,7 @@
       <Tool Name="postbuild" Command="" Options="" />
     </Toolchain>
   </Toolchains>
-  <Project Name="Tesla Battery Monitor" Path="C:\Users\LilRobby\Google Drive\gnarv\GnarV.Bundle01 - 1\Tesla Battery Monitor.cydsn" Version="5.80" Type="Normal">
+  <Project Name="Tesla Battery Monitor" Path="C:\Users\LilRobby\Workspace\pisoc-battery-monitor\Tesla Battery Monitor.cydsn" Version="5.80" Type="Normal">
     <CMSIS_SVD_File>Tesla Battery Monitor.svd</CMSIS_SVD_File>
     <Datasheet />
     <LinkerFiles>
@@ -34,14 +34,14 @@
       <LinkerFile Toolchain="ARM IAR Generic">.\Generated_Source\PSoC5\Cm3Iar.icf</LinkerFile>
     </LinkerFiles>
     <Folders>
-      <Folder BuildType="STRICT" Path="C:\Users\LilRobby\Google Drive\gnarv\GnarV.Bundle01 - 1\Tesla Battery Monitor.cydsn">
-        <Files Root="C:\Users\LilRobby\Google Drive\gnarv\GnarV.Bundle01 - 1\Tesla Battery Monitor.cydsn">
+      <Folder BuildType="STRICT" Path="C:\Users\LilRobby\Workspace\pisoc-battery-monitor\Tesla Battery Monitor.cydsn">
+        <Files Root="C:\Users\LilRobby\Workspace\pisoc-battery-monitor\Tesla Battery Monitor.cydsn">
           <File BuildType="BUILD" Toolchain="">main.c</File>
           <File BuildType="BUILD" Toolchain="">cyapicallbacks.h</File>
         </Files>
       </Folder>
-      <Folder BuildType="STRICT" Path="C:\Users\LilRobby\Google Drive\gnarv\GnarV.Bundle01 - 1\Tesla Battery Monitor.cydsn\Generated_Source\PSoC5">
-        <Files Root="C:\Users\LilRobby\Google Drive\gnarv\GnarV.Bundle01 - 1\Tesla Battery Monitor.cydsn">
+      <Folder BuildType="STRICT" Path="C:\Users\LilRobby\Workspace\pisoc-battery-monitor\Tesla Battery Monitor.cydsn\Generated_Source\PSoC5">
+        <Files Root="C:\Users\LilRobby\Workspace\pisoc-battery-monitor\Tesla Battery Monitor.cydsn">
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\cyfitter_cfg.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\cyfitter_cfg.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\cymetadata.c</File>
@@ -226,50 +226,50 @@
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\load_fet.h</File>
         </Files>
       </Folder>
-      <Folder BuildType="STRICT" Path="C:\Users\LilRobby\Google Drive\gnarv\GnarV.Bundle01 - 1\Tesla Battery Monitor.cydsn\Export\ARM_GCC_Generic">
-        <Files Root="C:\Users\LilRobby\Google Drive\gnarv\GnarV.Bundle01 - 1\Tesla Battery Monitor.cydsn">
+      <Folder BuildType="STRICT" Path="C:\Users\LilRobby\Workspace\pisoc-battery-monitor\Tesla Battery Monitor.cydsn\Export\ARM_GCC_Generic">
+        <Files Root="C:\Users\LilRobby\Workspace\pisoc-battery-monitor\Tesla Battery Monitor.cydsn">
           <File BuildType="BUILD" Toolchain="ARM GCC Generic">.\Export\ARM_GCC_Generic\CyComponentLibrary.a</File>
         </Files>
       </Folder>
-      <Folder BuildType="STRICT" Path="C:\Users\LilRobby\Google Drive\gnarv\GnarV.Bundle01 - 1\Tesla Battery Monitor.cydsn\Export\ARM_MDK_Generic">
-        <Files Root="C:\Users\LilRobby\Google Drive\gnarv\GnarV.Bundle01 - 1\Tesla Battery Monitor.cydsn">
+      <Folder BuildType="STRICT" Path="C:\Users\LilRobby\Workspace\pisoc-battery-monitor\Tesla Battery Monitor.cydsn\Export\ARM_MDK_Generic">
+        <Files Root="C:\Users\LilRobby\Workspace\pisoc-battery-monitor\Tesla Battery Monitor.cydsn">
           <File BuildType="BUILD" Toolchain="ARM MDK Generic">.\Export\ARM_MDK_Generic\CyComponentLibrary.a</File>
         </Files>
       </Folder>
-      <Folder BuildType="STRICT" Path="C:\Users\LilRobby\Google Drive\gnarv\GnarV.Bundle01 - 1\Tesla Battery Monitor.cydsn\Export\ARM_IAR_Generic">
-        <Files Root="C:\Users\LilRobby\Google Drive\gnarv\GnarV.Bundle01 - 1\Tesla Battery Monitor.cydsn">
+      <Folder BuildType="STRICT" Path="C:\Users\LilRobby\Workspace\pisoc-battery-monitor\Tesla Battery Monitor.cydsn\Export\ARM_IAR_Generic">
+        <Files Root="C:\Users\LilRobby\Workspace\pisoc-battery-monitor\Tesla Battery Monitor.cydsn">
           <File BuildType="BUILD" Toolchain="ARM IAR Generic">.\Export\ARM_IAR_Generic\CyComponentLibrary.a</File>
         </Files>
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\codegentemp">
-        <Files Root="C:\Users\LilRobby\Google Drive\gnarv\GnarV.Bundle01 - 1\Tesla Battery Monitor.cydsn" />
+        <Files Root="C:\Users\LilRobby\Workspace\pisoc-battery-monitor\Tesla Battery Monitor.cydsn" />
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\ARM_GCC_441">
-        <Files Root="C:\Users\LilRobby\Google Drive\gnarv\GnarV.Bundle01 - 1\Tesla Battery Monitor.cydsn" />
+        <Files Root="C:\Users\LilRobby\Workspace\pisoc-battery-monitor\Tesla Battery Monitor.cydsn" />
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\ARM_GCC_473">
-        <Files Root="C:\Users\LilRobby\Google Drive\gnarv\GnarV.Bundle01 - 1\Tesla Battery Monitor.cydsn" />
+        <Files Root="C:\Users\LilRobby\Workspace\pisoc-battery-monitor\Tesla Battery Monitor.cydsn" />
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\DP8051_Keil_952">
-        <Files Root="C:\Users\LilRobby\Google Drive\gnarv\GnarV.Bundle01 - 1\Tesla Battery Monitor.cydsn" />
+        <Files Root="C:\Users\LilRobby\Workspace\pisoc-battery-monitor\Tesla Battery Monitor.cydsn" />
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\DP8051">
-        <Files Root="C:\Users\LilRobby\Google Drive\gnarv\GnarV.Bundle01 - 1\Tesla Battery Monitor.cydsn" />
+        <Files Root="C:\Users\LilRobby\Workspace\pisoc-battery-monitor\Tesla Battery Monitor.cydsn" />
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\CortexM0">
-        <Files Root="C:\Users\LilRobby\Google Drive\gnarv\GnarV.Bundle01 - 1\Tesla Battery Monitor.cydsn" />
+        <Files Root="C:\Users\LilRobby\Workspace\pisoc-battery-monitor\Tesla Battery Monitor.cydsn" />
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\CortexM0p">
-        <Files Root="C:\Users\LilRobby\Google Drive\gnarv\GnarV.Bundle01 - 1\Tesla Battery Monitor.cydsn" />
+        <Files Root="C:\Users\LilRobby\Workspace\pisoc-battery-monitor\Tesla Battery Monitor.cydsn" />
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\CortexM3">
-        <Files Root="C:\Users\LilRobby\Google Drive\gnarv\GnarV.Bundle01 - 1\Tesla Battery Monitor.cydsn" />
+        <Files Root="C:\Users\LilRobby\Workspace\pisoc-battery-monitor\Tesla Battery Monitor.cydsn" />
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\CortexM4">
-        <Files Root="C:\Users\LilRobby\Google Drive\gnarv\GnarV.Bundle01 - 1\Tesla Battery Monitor.cydsn" />
+        <Files Root="C:\Users\LilRobby\Workspace\pisoc-battery-monitor\Tesla Battery Monitor.cydsn" />
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\CortexM7">
-        <Files Root="C:\Users\LilRobby\Google Drive\gnarv\GnarV.Bundle01 - 1\Tesla Battery Monitor.cydsn" />
+        <Files Root="C:\Users\LilRobby\Workspace\pisoc-battery-monitor\Tesla Battery Monitor.cydsn" />
       </Folder>
     </Folders>
   </Project>
