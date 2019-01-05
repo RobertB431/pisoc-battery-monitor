@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CyXmlSerializer>
+<!--This file is machine generated and read. It is not intended to be edited by hand.-->
+<!--Due to this, there is no schema for this file.-->
+<CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21 type_name="CyDesigner.Common.ProjMgmt.Model.CyPrjMgmtWrkspcCustomData" version="4">
+<CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997 type_name="CyDesigner.Common.Base.CyCustomData" version="2">
+<userData>
+<dataGuid v="1b906a0f-a7b6-4e4d-a428-82f98b53cb35">
+<CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35 type_name="CyDesigner.Common.ProjMgmt.GUI.CyExplorerWindow+CyExplorerWindowState" version="3" SelectedTab="Source">
+<TreeKeys>
+<v>Source</v>
+<v>Components</v>
+<v>Output</v>
+</TreeKeys>
+<TreeStates>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="GnarV\Tesla Battery Monitor\Generated_Source">
+<ExpandedNodeIds>
+<v>GnarV</v>
+<v>GnarV\Tesla Battery Monitor</v>
+<v>GnarV\Tesla Battery Monitor\TopDesign</v>
+<v>GnarV\Tesla Battery Monitor\Tesla Battery Monitor.cydwr</v>
+<v>GnarV\Tesla Battery Monitor\Tesla Battery Monitor.cydwr\Pins</v>
+<v>GnarV\Tesla Battery Monitor\Tesla Battery Monitor.cydwr\Analog</v>
+<v>GnarV\Tesla Battery Monitor\Tesla Battery Monitor.cydwr\Clocks</v>
+<v>GnarV\Tesla Battery Monitor\Tesla Battery Monitor.cydwr\Interrupts</v>
+<v>GnarV\Tesla Battery Monitor\Tesla Battery Monitor.cydwr\DMA</v>
+<v>GnarV\Tesla Battery Monitor\Tesla Battery Monitor.cydwr\System</v>
+<v>GnarV\Tesla Battery Monitor\Tesla Battery Monitor.cydwr\Directives</v>
+<v>GnarV\Tesla Battery Monitor\Tesla Battery Monitor.cydwr\Flash Security</v>
+<v>GnarV\Tesla Battery Monitor\Tesla Battery Monitor.cydwr\EEPROM</v>
+<v>GnarV\Tesla Battery Monitor\Header Files</v>
+<v>GnarV\Tesla Battery Monitor\Header Files\cyapicallbacks.h</v>
+<v>GnarV\Tesla Battery Monitor\Source Files</v>
+<v>GnarV\Tesla Battery Monitor\Source Files\main.c</v>
+<v>GnarV\Tesla Battery Monitor\Generated_Source\PSoC5</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>GnarV</v>
+<v>GnarV\Tesla Battery Monitor</v>
+<v>GnarV\Tesla Battery Monitor\TopDesign</v>
+<v>GnarV\Tesla Battery Monitor\Tesla Battery Monitor.cydwr</v>
+<v>GnarV\Tesla Battery Monitor\Tesla Battery Monitor.cydwr\Pins</v>
+<v>GnarV\Tesla Battery Monitor\Tesla Battery Monitor.cydwr\Analog</v>
+<v>GnarV\Tesla Battery Monitor\Tesla Battery Monitor.cydwr\Clocks</v>
+<v>GnarV\Tesla Battery Monitor\Tesla Battery Monitor.cydwr\Interrupts</v>
+<v>GnarV\Tesla Battery Monitor\Tesla Battery Monitor.cydwr\DMA</v>
+<v>GnarV\Tesla Battery Monitor\Tesla Battery Monitor.cydwr\System</v>
+<v>GnarV\Tesla Battery Monitor\Tesla Battery Monitor.cydwr\Directives</v>
+<v>GnarV\Tesla Battery Monitor\Tesla Battery Monitor.cydwr\Flash Security</v>
+<v>GnarV\Tesla Battery Monitor\Tesla Battery Monitor.cydwr\EEPROM</v>
+<v>GnarV\Tesla Battery Monitor\Header Files</v>
+<v>GnarV\Tesla Battery Monitor\Header Files\cyapicallbacks.h</v>
+<v>GnarV\Tesla Battery Monitor\Source Files</v>
+<v>GnarV\Tesla Battery Monitor\Source Files\main.c</v>
+<v>GnarV\Tesla Battery Monitor\Generated_Source</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>GnarV</v>
+<v>GnarV\Tesla Battery Monitor</v>
+<v>GnarV\Tesla Battery Monitor\TopDesign</v>
+<v>GnarV\Tesla Battery Monitor\TopDesign\TopDesign.cysch</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>GnarV</v>
+<v>GnarV\Tesla Battery Monitor</v>
+<v>GnarV\Tesla Battery Monitor\TopDesign</v>
+<v>GnarV\Tesla Battery Monitor\TopDesign\TopDesign.cysch</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>GnarV</v>
+<v>GnarV\Tesla Battery Monitor</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\CalDAC.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\CalDAC_PM.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\Clock_1.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\Cm3Start.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\cs.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\CyDmac.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\CySpc.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\dc.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\fault.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\main.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\miso.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\mosi.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\pgood.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\pmon_clock.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\PowerMonitor.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\PowerMonitor_ADC.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\PowerMonitor_ADC_Ext_CP_Clk.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\PowerMonitor_ADC_INT.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\PowerMonitor_ADC_PM.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\PowerMonitor_ADC_theACLK.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\PowerMonitor_Calibration.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\PowerMonitor_INT.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\PowerMonitor_PGA.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\PowerMonitor_PGA_PM.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\PowerMonitor_PM_AMux_Current.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\PowerMonitor_PM_AMux_Voltage.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\rt_cs.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\sclk.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\ShuntHigh.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\ShuntLow.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\ss.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\TempPin.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\TFTSHIELD_1.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\TFTSHIELD_1_CR_1.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\TFTSHIELD_1_SPIM_1.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\TFTSHIELD_1_SPIM_1_INT.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\TFTSHIELD_1_SPIM_1_PM.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\Thermistor_1.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\Thermistor_ADC.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\Thermistor_ADC_FinalBuf_dma.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\Thermistor_ADC_INT.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\Thermistor_ADC_IntClock.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\Thermistor_ADC_IRQ.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\Thermistor_ADC_PM.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\Thermistor_ADC_SAR.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\Thermistor_ADC_SAR_INT.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\Thermistor_ADC_SAR_PM.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\Thermistor_ADC_TempBuf_dma.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\TS1.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\TS2.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\USBUART_2.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\USBUART_2_audio.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\USBUART_2_boot.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\USBUART_2_cdc.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\USBUART_2_cls.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\USBUART_2_descr.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\USBUART_2_Dm.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\USBUART_2_Dp.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\USBUART_2_drv.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\USBUART_2_episr.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\USBUART_2_hid.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\USBUART_2_midi.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\USBUART_2_msc.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\USBUART_2_pm.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\USBUART_2_std.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\USBUART_2_vnd.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\v_1.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Tesla Battery Monitor.elf</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Tesla Battery Monitor.hex</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Tesla Battery Monitor.map</v>
+<v>GnarV\Tesla Battery Monitor\Tesla Battery Monitor.gpdsc</v>
+<v>GnarV\Tesla Battery Monitor\Tesla Battery Monitor.rpt</v>
+<v>GnarV\Tesla Battery Monitor\Tesla Battery Monitor_timing.html</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>GnarV</v>
+<v>GnarV\Tesla Battery Monitor</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\CalDAC.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\CalDAC_PM.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\Clock_1.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\Cm3Start.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\cs.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\CyDmac.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\CySpc.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\dc.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\fault.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\main.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\miso.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\mosi.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\pgood.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\pmon_clock.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\PowerMonitor.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\PowerMonitor_ADC.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\PowerMonitor_ADC_Ext_CP_Clk.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\PowerMonitor_ADC_INT.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\PowerMonitor_ADC_PM.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\PowerMonitor_ADC_theACLK.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\PowerMonitor_Calibration.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\PowerMonitor_INT.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\PowerMonitor_PGA.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\PowerMonitor_PGA_PM.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\PowerMonitor_PM_AMux_Current.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\PowerMonitor_PM_AMux_Voltage.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\rt_cs.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\sclk.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\ShuntHigh.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\ShuntLow.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\ss.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\TempPin.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\TFTSHIELD_1.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\TFTSHIELD_1_CR_1.lst</v>
+<v>GnarV\Tesla Battery Monitor\CortexM3\ARM_GCC_541\Debug\Listing Files\TFTSHIELD_1_SPIM_1.lst</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStates>
+<TreeKeysV2>
+<v>Datasheet</v>
+</TreeKeysV2>
+<TreeStatesV2>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="GnarV">
+<ExpandedNodeIds>
+<v>GnarV</v>
+<v>GnarV\Tesla Battery Monitor</v>
+<v>GnarV\Tesla Battery Monitor\PSoC 5LP Architecture TRM</v>
+<v>GnarV\Tesla Battery Monitor\CY8C58LP Family Datasheet</v>
+<v>GnarV\Tesla Battery Monitor\System Reference Guides</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>GnarV</v>
+<v>GnarV\Tesla Battery Monitor</v>
+<v>GnarV\Tesla Battery Monitor\PSoC 5LP Architecture TRM</v>
+<v>GnarV\Tesla Battery Monitor\CY8C58LP Family Datasheet</v>
+<v>GnarV\Tesla Battery Monitor\System Reference Guides</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStatesV2>
+</CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35>
+</dataGuid>
+<dataGuid v="6c335137-fa19-46ce-bc2d-2fbeb6d5f2a2">
+<CyGuid_70084457-cd6a-4593-9ed0-7f6eeb432dc2 type_name="CyDesigner.Common.ProjMgmt.GUI.CyDependenciesCustomData" version="1">
+<dictName v=".\Tesla Battery Monitor.cydsn\Tesla Battery Monitor.cyprj">
+<listName />
+</dictName>
+</CyGuid_70084457-cd6a-4593-9ed0-7f6eeb432dc2>
+</dataGuid>
+<dataGuid v="5f2be1a5-0687-4501-bb8c-cf21cb8211bf">
+<CyGuid_5f2be1a5-0687-4501-bb8c-cf21cb8211bf type_name="CyDesigner.Common.ProjMgmt.GUI.CyBookmarkData" version="1">
+<indicators />
+</CyGuid_5f2be1a5-0687-4501-bb8c-cf21cb8211bf>
+</dataGuid>
+</userData>
+</CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
+<Unloaded />
+<OpenDocs>
+<name v=".\Tesla Battery Monitor.cydsn\Tesla Battery Monitor.cydwr" />
+<name v=".\Tesla Battery Monitor.cydsn\TopDesign\TopDesign.cysch" />
+<name v=".\Tesla Battery Monitor.cydsn\main.c" />
+</OpenDocs>
+<OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
+
+  Actipro Docking/MDI for WinForms
+  Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
+  http://www.actiprosoftware.com
+
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1250, 578" SelectedTabbedMdiWindow="07d8751d-6ea7-41d0-88f6-1e75d76dcd39"><DocumentWindow Key="C:\Users\Robert\Documents\PSoC Creator\GnarV\Tesla Battery Monitor.cydsn\Tesla Battery Monitor.cydwr" Guid="3de472c4-6733-4113-8292-b6b7377d4d71" /><DocumentWindow Key="C:\Users\Robert\Documents\PSoC Creator\GnarV\Tesla Battery Monitor.cydsn\TopDesign\TopDesign.cysch" Guid="07d8751d-6ea7-41d0-88f6-1e75d76dcd39" /><DocumentWindow Key="C:\Users\Robert\Documents\PSoC Creator\GnarV\Tesla Battery Monitor.cydsn\main.c" Guid="dcc08548-d670-4fea-8864-eb629a09e1fd" /><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="2127589c-8481-4912-995b-2deab94c114a" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+<config v="" />
+<AutoUpdate v="true" />
+</CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
+</CyXmlSerializer>

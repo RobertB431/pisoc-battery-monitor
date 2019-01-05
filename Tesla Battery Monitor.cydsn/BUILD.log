@@ -1,0 +1,100 @@
+--------------- Build Started: 01/04/2019 22:22:16 Project: Tesla Battery Monitor, Configuration: ARM GCC 5.4-2016-q2-update Debug ---------------
+The code generation step is up to date.
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/main.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c main.c -o .\CortexM3\ARM_GCC_541\Debug\main.o
+main.c: In function 'main':
+main.c:170:25: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+     count_str = sprintf(buffer, "Power on \n\r");
+                         ^
+In file included from c:\program files (x86)\cypress\psoc creator\4.2\psoc creator\import\gnu\arm\5.4.1\arm-none-eabi\include\string.h:10:0,
+                 from Generated_Source\PSoC5/CyLib.h:22,
+                 from Generated_Source\PSoC5/USBUART_2.h:22,
+                 from Generated_Source\PSoC5/project.h:22,
+                 from main.c:9:
+c:\program files (x86)\cypress\psoc creator\4.2\psoc creator\import\gnu\arm\5.4.1\arm-none-eabi\include\stdio.h:231:5: note: expected 'char * restrict' but argument is of type 'uint8 * {aka unsigned char *}'
+ int _EXFUN(sprintf, (char *__restrict, const char *__restrict, ...)
+     ^
+main.c:199:29: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+         count_str = sprintf(buffer, "TS1 Res: %.2f   TS2 Res: %.2f \n",TS1_res,TS2_res); //print thermistor voltages
+                             ^
+In file included from c:\program files (x86)\cypress\psoc creator\4.2\psoc creator\import\gnu\arm\5.4.1\arm-none-eabi\include\string.h:10:0,
+                 from Generated_Source\PSoC5/CyLib.h:22,
+                 from Generated_Source\PSoC5/USBUART_2.h:22,
+                 from Generated_Source\PSoC5/project.h:22,
+                 from main.c:9:
+c:\program files (x86)\cypress\psoc creator\4.2\psoc creator\import\gnu\arm\5.4.1\arm-none-eabi\include\stdio.h:231:5: note: expected 'char * restrict' but argument is of type 'uint8 * {aka unsigned char *}'
+ int _EXFUN(sprintf, (char *__restrict, const char *__restrict, ...)
+     ^
+main.c:202:33: warning: pointer targets in passing argument 1 of 'TFTSHIELD_1_PrintString' differ in signedness [-Wpointer-sign]
+         TFTSHIELD_1_PrintString(buffer);
+                                 ^
+In file included from Generated_Source\PSoC5/project.h:63:0,
+                 from main.c:9:
+Generated_Source\PSoC5/TFTSHIELD_1.h:66:6: note: expected 'char8 * {aka char *}' but argument is of type 'uint8 * {aka unsigned char *}'
+ void TFTSHIELD_1_PrintString(char8 string[]);
+      ^
+main.c:208:29: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+         count_str = sprintf(buffer, "Batt Volts: %.1f   Batt Amps: %.1f \n",(float)v_bat*0.0096,v_amps); //print battery voltage and current
+                             ^
+In file included from c:\program files (x86)\cypress\psoc creator\4.2\psoc creator\import\gnu\arm\5.4.1\arm-none-eabi\include\string.h:10:0,
+                 from Generated_Source\PSoC5/CyLib.h:22,
+                 from Generated_Source\PSoC5/USBUART_2.h:22,
+                 from Generated_Source\PSoC5/project.h:22,
+                 from main.c:9:
+c:\program files (x86)\cypress\psoc creator\4.2\psoc creator\import\gnu\arm\5.4.1\arm-none-eabi\include\stdio.h:231:5: note: expected 'char * restrict' but argument is of type 'uint8 * {aka unsigned char *}'
+ int _EXFUN(sprintf, (char *__restrict, const char *__restrict, ...)
+     ^
+main.c:211:33: warning: pointer targets in passing argument 1 of 'TFTSHIELD_1_PrintString' differ in signedness [-Wpointer-sign]
+         TFTSHIELD_1_PrintString(buffer);
+                                 ^
+In file included from Generated_Source\PSoC5/project.h:63:0,
+                 from main.c:9:
+Generated_Source\PSoC5/TFTSHIELD_1.h:66:6: note: expected 'char8 * {aka char *}' but argument is of type 'uint8 * {aka unsigned char *}'
+ void TFTSHIELD_1_PrintString(char8 string[]);
+      ^
+main.c:157:9: warning: unused variable 'i' [-Wunused-variable]
+     int i = 0;
+         ^
+main.c:156:11: warning: unused variable 'state' [-Wunused-variable]
+     uint8 state;
+           ^
+main.c:155:11: warning: unused variable 'lineStr' [-Wunused-variable]
+     char8 lineStr[20];
+           ^
+main.c:154:11: warning: unused variable 'temp_buffer' [-Wunused-variable]
+     uint8 temp_buffer[10];
+           ^
+main.c:153:12: warning: variable 'count_str' set but not used [-Wunused-but-set-variable]
+     uint16 count_str;
+            ^
+main.c:151:12: warning: unused variable 'stop' [-Wunused-variable]
+     char8 *stop[] = { "1", "1.5", "2" };
+            ^
+main.c:150:12: warning: unused variable 'parity' [-Wunused-variable]
+     char8 *parity[] = { "None", "Odd", "Even", "Mark", "Space" };
+            ^
+main.c:123:16: warning: unused variable 'buf' [-Wunused-variable]
+     uint8_t z, buf;
+                ^
+main.c:123:13: warning: unused variable 'z' [-Wunused-variable]
+     uint8_t z, buf;
+             ^
+main.c:122:17: warning: unused variable 'y' [-Wunused-variable]
+     uint16_t x, y;
+                 ^
+main.c:122:14: warning: unused variable 'x' [-Wunused-variable]
+     uint16_t x, y;
+              ^
+main.c:121:10: warning: variable 'touch_en' set but not used [-Wunused-but-set-variable]
+     bool touch_en = 0;
+          ^
+arm-none-eabi-ar.exe -rs ".\CortexM3\ARM_GCC_541\Debug\Tesla Battery Monitor.a" .\CortexM3\ARM_GCC_541\Debug\USBUART_2.o .\CortexM3\ARM_GCC_541\Debug\USBUART_2_audio.o .\CortexM3\ARM_GCC_541\Debug\USBUART_2_boot.o .\CortexM3\ARM_GCC_541\Debug\USBUART_2_cdc.o .\CortexM3\ARM_GCC_541\Debug\USBUART_2_cls.o .\CortexM3\ARM_GCC_541\Debug\USBUART_2_descr.o .\CortexM3\ARM_GCC_541\Debug\USBUART_2_drv.o .\CortexM3\ARM_GCC_541\Debug\USBUART_2_episr.o .\CortexM3\ARM_GCC_541\Debug\USBUART_2_hid.o .\CortexM3\ARM_GCC_541\Debug\USBUART_2_pm.o .\CortexM3\ARM_GCC_541\Debug\USBUART_2_std.o .\CortexM3\ARM_GCC_541\Debug\USBUART_2_vnd.o .\CortexM3\ARM_GCC_541\Debug\USBUART_2_midi.o .\CortexM3\ARM_GCC_541\Debug\USBUART_2_msc.o .\CortexM3\ARM_GCC_541\Debug\USBUART_2_Dm.o .\CortexM3\ARM_GCC_541\Debug\USBUART_2_Dp.o .\CortexM3\ARM_GCC_541\Debug\cy_em_eeprom.o .\CortexM3\ARM_GCC_541\Debug\CyDmac.o .\CortexM3\ARM_GCC_541\Debug\CyFlash.o .\CortexM3\ARM_GCC_541\Debug\CyLib.o .\CortexM3\ARM_GCC_541\Debug\cyPm.o .\CortexM3\ARM_GCC_541\Debug\CySpc.o .\CortexM3\ARM_GCC_541\Debug\cyutils.o .\CortexM3\ARM_GCC_541\Debug\TS2.o .\CortexM3\ARM_GCC_541\Debug\TS1.o .\CortexM3\ARM_GCC_541\Debug\Thermistor_ADC.o .\CortexM3\ARM_GCC_541\Debug\Thermistor_ADC_PM.o .\CortexM3\ARM_GCC_541\Debug\Thermistor_ADC_INT.o .\CortexM3\ARM_GCC_541\Debug\ShuntLow.o .\CortexM3\ARM_GCC_541\Debug\ShuntHigh.o .\CortexM3\ARM_GCC_541\Debug\Thermistor_1.o .\CortexM3\ARM_GCC_541\Debug\Thermistor_ADC_SAR.o .\CortexM3\ARM_GCC_541\Debug\Thermistor_ADC_SAR_INT.o .\CortexM3\ARM_GCC_541\Debug\Thermistor_ADC_SAR_PM.o .\CortexM3\ARM_GCC_541\Debug\Thermistor_ADC_IntClock.o .\CortexM3\ARM_GCC_541\Debug\Thermistor_ADC_TempBuf_dma.o .\CortexM3\ARM_GCC_541\Debug\Thermistor_ADC_FinalBuf_dma.o .\CortexM3\ARM_GCC_541\Debug\Thermistor_ADC_IRQ.o .\CortexM3\ARM_GCC_541\Debug\fault.o .\CortexM3\ARM_GCC_541\Debug\pgood.o .\CortexM3\ARM_GCC_541\Debug\v_1.o .\CortexM3\ARM_GCC_541\Debug\pmon_clock.o .\CortexM3\ARM_GCC_541\Debug\PowerMonitor.o .\CortexM3\ARM_GCC_541\Debug\PowerMonitor_INT.o .\CortexM3\ARM_GCC_541\Debug\PowerMonitor_Calibration.o .\CortexM3\ARM_GCC_541\Debug\PowerMonitor_ADC.o .\CortexM3\ARM_GCC_541\Debug\PowerMonitor_ADC_PM.o .\CortexM3\ARM_GCC_541\Debug\PowerMonitor_ADC_INT.o .\CortexM3\ARM_GCC_541\Debug\PowerMonitor_PM_AMux_Current.o .\CortexM3\ARM_GCC_541\Debug\PowerMonitor_PGA.o .\CortexM3\ARM_GCC_541\Debug\PowerMonitor_PGA_PM.o .\CortexM3\ARM_GCC_541\Debug\PowerMonitor_PM_AMux_Voltage.o .\CortexM3\ARM_GCC_541\Debug\PowerMonitor_ADC_theACLK.o .\CortexM3\ARM_GCC_541\Debug\PowerMonitor_ADC_Ext_CP_Clk.o .\CortexM3\ARM_GCC_541\Debug\miso.o .\CortexM3\ARM_GCC_541\Debug\Clock_1.o .\CortexM3\ARM_GCC_541\Debug\ss.o .\CortexM3\ARM_GCC_541\Debug\sclk.o .\CortexM3\ARM_GCC_541\Debug\mosi.o .\CortexM3\ARM_GCC_541\Debug\cs.o .\CortexM3\ARM_GCC_541\Debug\dc.o .\CortexM3\ARM_GCC_541\Debug\rt_cs.o .\CortexM3\ARM_GCC_541\Debug\TFTSHIELD_1.o .\CortexM3\ARM_GCC_541\Debug\TFTSHIELD_1_SPIM_1.o .\CortexM3\ARM_GCC_541\Debug\TFTSHIELD_1_SPIM_1_PM.o .\CortexM3\ARM_GCC_541\Debug\TFTSHIELD_1_SPIM_1_INT.o .\CortexM3\ARM_GCC_541\Debug\TFTSHIELD_1_CR_1.o .\CortexM3\ARM_GCC_541\Debug\TFTSHIELD_1_CR_1_PM.o .\CortexM3\ARM_GCC_541\Debug\TempPin.o .\CortexM3\ARM_GCC_541\Debug\PWM_1.o .\CortexM3\ARM_GCC_541\Debug\PWM_1_PM.o .\CortexM3\ARM_GCC_541\Debug\charge_fet.o .\CortexM3\ARM_GCC_541\Debug\load_fet.o .\CortexM3\ARM_GCC_541\Debug\CyBootAsmGnu.o
+arm-none-eabi-ar.exe: creating .\CortexM3\ARM_GCC_541\Debug\Tesla Battery Monitor.a
+arm-none-eabi-gcc.exe -Wl,--start-group -o "C:\Users\LilRobby\Google Drive\gnarv\GnarV.Bundle01 - 1\Tesla Battery Monitor.cydsn\CortexM3\ARM_GCC_541\Debug\Tesla Battery Monitor.elf" .\CortexM3\ARM_GCC_541\Debug\main.o .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o .\CortexM3\ARM_GCC_541\Debug\cymetadata.o .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o ".\CortexM3\ARM_GCC_541\Debug\Tesla Battery Monitor.a" "C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CortexM3\ARM_GCC_541\Debug\CyComponentLibrary.a" -mcpu=cortex-m3 -mthumb -L Generated_Source\PSoC5 "-Wl,-Map,.\CortexM3\ARM_GCC_541\Debug/Tesla Battery Monitor.map" -T Generated_Source\PSoC5\cm3gcc.ld -specs=nano.specs -u _printf_float -Wl,--gc-sections -g -ffunction-sections -Og -ffat-lto-objects -Wl,--end-group
+cyelftool.exe -C "C:\Users\LilRobby\Google Drive\gnarv\GnarV.Bundle01 - 1\Tesla Battery Monitor.cydsn\CortexM3\ARM_GCC_541\Debug\Tesla Battery Monitor.elf" --flash_row_size 256 --flash_size 262144 --flash_offset 0x00000000
+No ELF section .cychecksum found, creating one
+Application checksum calculated and stored in ELF section .cychecksum
+Checksum calculated and stored in ELF section .cymeta
+cyelftool.exe -S "C:\Users\LilRobby\Google Drive\gnarv\GnarV.Bundle01 - 1\Tesla Battery Monitor.cydsn\CortexM3\ARM_GCC_541\Debug\Tesla Battery Monitor.elf"
+Flash used: 30552 of 262144 bytes (11.7%).
+SRAM used: 3745 of 65536 bytes (5.7%). Stack: 2048 bytes. Heap: 512 bytes.
+--------------- Build Succeeded: 01/04/2019 22:22:24 ---------------
