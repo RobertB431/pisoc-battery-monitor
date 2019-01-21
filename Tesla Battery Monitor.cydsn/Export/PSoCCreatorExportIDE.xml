@@ -224,6 +224,25 @@
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\load_fet_aliases.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\load_fet.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\load_fet.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\UART_1.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\UART_1.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\UART_1_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\UART_1_INT.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\UART_1_BOOT.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\UART_1_IntClock.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\UART_1_IntClock.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Pin_1_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Pin_1.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Pin_1.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\timer_clock.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\timer_clock.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Timer_1.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Timer_1.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Timer_1_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\isr_1.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\isr_1.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\pmonitor_eoc_isr.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\pmonitor_eoc_isr.h</File>
         </Files>
       </Folder>
       <Folder BuildType="STRICT" Path="C:\Users\LilRobby\Workspace\pisoc-battery-monitor\Tesla Battery Monitor.cydsn\Export\ARM_GCC_Generic">
